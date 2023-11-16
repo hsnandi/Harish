@@ -1,20 +1,25 @@
+#Hello world
 print ("Hello World")
 
+#How to import
 import math
 print (math.floor(3.65))
 print (math.sin(90))
 print (math.tan(0))
 print (math.sin(0))
 
+#variables
 a = 1
 b = 2
 print (a+b)
 
+#How to get type
 Name = "Harish"
 Number = 55
 print (type(Name))
 print (type(Number))
 
+#Variables
 list = ["Harish",2,3.5]
 print (list)
 
@@ -31,15 +36,18 @@ print(list2)
 tuple = (1,2,3)
 print(tuple)
 
-#List are in square bracket eg:[]
-#Tuples are in in round bracket eg:()
-#Dictionary are in {}
+'''
+List are in square bracket eg:[]
+Tuples are in in round bracket eg:()
+Dictionary are in {}
+'''
 
 list5 = [1,2,3,3,4]
 s1 = set(list5)
 print (s1)
 #to remove the repeted element of LIST, "set" is used.
 
+# if else statements
 a=33
 b=35
 if b > a:
@@ -70,13 +78,14 @@ else:
    print ("you are child")
    
    
-
 a = 2
 b = 330
 print("A") if a > b else print("B")
 
+#functions
 def average(num1, num2):
     avr = (num1 + num2) / 2
     return avr
 
 print(average(3,6))
+
