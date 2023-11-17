@@ -1,6 +1,5 @@
 from datetime import datetime
 
-# Function to predict age based on birth year
 def predict_age(birth_year):
     current_year = datetime.now().year
     age = current_year - birth_year
