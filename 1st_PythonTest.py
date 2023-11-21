@@ -87,14 +87,22 @@ def greet():
     print("Hello World!")
     print("How do you do?")
 greet() #here greet has been defined with two statement and in the end greet() ensure the defined value would run now. If i want the print statement repetedly I can use greet() repetedly.
+#we should define the function before running it.
+
+#arguments in def function
+def greeting(name):
+    print("Hello", name)
+    print("How do you do?")
+
+greeting("Jack")
 
 def average(num1, num2):
     avr = (num1 + num2) / 2
     return avr
 
-
-
 print(average(3,6))
+
+
 
 #while loop
 i = 1
