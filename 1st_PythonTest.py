@@ -83,9 +83,16 @@ b = 330
 print("A") if a > b else print("B")
 
 #functions
+def greet():
+    print("Hello World!")
+    print("How do you do?")
+greet() #here greet has been defined with two statement and in the end greet() ensure the defined value would run now. If i want the print statement repetedly I can use greet() repetedly.
+
 def average(num1, num2):
     avr = (num1 + num2) / 2
     return avr
+
+
 
 print(average(3,6))
 
